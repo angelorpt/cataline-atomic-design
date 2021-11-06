@@ -1,16 +1,16 @@
 <template>
   <div class="component">
-    <Presentation />
+    <Services />
   </div>
 </template>
 
 <script>
 import { defineComponent } from 'vue'
-import { Presentation } from '@/components/organisms'
+import { Services } from '@/components/organisms'
 
 export default defineComponent({
   components: {
-    Presentation
+    Services
   }
 })
 </script>
