@@ -1,9 +1,22 @@
 <template>
-  <h1>Cataline</h1>
+  <div class="component">
+    <HomeTemplate />
+  </div>
 </template>
 
-<script lang="ts">
+<script>
 import { defineComponent } from 'vue'
+import { HomeTemplate } from '@/components/templates'
 
-export default defineComponent({})
+export default defineComponent({
+  components: {
+    HomeTemplate
+  }
+})
 </script>
+
+<style lang="scss" scoped>
+.component {
+  margin: 5rem;
+}
+</style>
