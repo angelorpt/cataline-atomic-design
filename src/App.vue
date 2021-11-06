@@ -1,19 +1,16 @@
 <template>
   <div class="component">
-    <Service
-      title="Teste"
-      description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto aliquam voluptates commodi, repudiandae fugit suscipit! Nam impedit nemo cumque quos atque. Dicta beatae praesentium laudantium minus repellendus qui, fugiat recusandae?"
-    />
+    <Header />
   </div>
 </template>
 
 <script>
 import { defineComponent } from 'vue'
-import { Service } from '@/components/molecules'
+import { Header } from '@/components/organisms'
 
 export default defineComponent({
   components: {
-    Service
+    Header
   }
 })
 </script>
