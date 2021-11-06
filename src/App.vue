@@ -1,18 +1,16 @@
 <template>
   <div class="component">
-    <SocialLink name="github" to="https://github.com" icon="github.svg" />
-    <SocialLink name="twitter" to="https://twitter.com" icon="twitter.svg" />
-    <SocialLink name="facebook" to="https://facebook.com" icon="facebook.svg" />
+    <SocialNetworks />
   </div>
 </template>
 
 <script>
 import { defineComponent } from 'vue'
-import { SocialLink } from '@/components/atoms'
+import { SocialNetworks } from '@/components/molecules'
 
 export default defineComponent({
   components: {
-    SocialLink
+    SocialNetworks
   }
 })
 </script>
