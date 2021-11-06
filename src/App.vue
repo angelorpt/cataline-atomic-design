@@ -1,16 +1,23 @@
 <template>
   <div class="component">
-    <Services />
+    <Container>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore iusto
+        totam iste aperiam a distinctio exercitationem amet soluta sint ipsam!
+        Fugiat magni suscipit ducimus cupiditate numquam iste hic, quae
+        explicabo?
+      </p>
+    </Container>
   </div>
 </template>
 
 <script>
 import { defineComponent } from 'vue'
-import { Services } from '@/components/organisms'
+import { Container } from '@/components/bosons'
 
 export default defineComponent({
   components: {
-    Services
+    Container
   }
 })
 </script>
